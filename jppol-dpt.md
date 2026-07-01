@@ -1,9 +1,9 @@
 # Migrering
 I hovedtræk skal følgende gøres:
-1. Flyt kode og dag filer til hhv. `src/` og `.airflow/`
+1. Flyt kode og dag filer til hhv. `src/` og `airflow/`
 2. `uv`-opsætning
 3. Tilføj .pre-commit-config.yaml
-4. Opdater .Dockerfile og CICD-filer
+4. Opdater Dockerfile og CICD-filer
 5. Opdater dags
 6. Opdater readme
 
@@ -62,7 +62,7 @@ Nu vil pre-commit køres inden hvert commit!
 - Fordi pre-commit kun er automatisk for de filer der committes ændringer til, bør kommandoen `uv run pre-commit run --all-files` køres som led af migrering, da det så får alle filer up-to-date. 
 
 ## 4. Dockerfile og .github/
-- Såfremt projektet er __klassisk__ pipeline, kan samme `.Dockerfile` og CICD filer kopieres fra allerede-migrerede repos. Er det ikke tilfældet, kræver det individuel tilpasning.  
+- Såfremt projektet er __klassisk__ pipeline, kan samme `Dockerfile` og CICD filer kopieres fra allerede-migrerede repos. Er det ikke tilfældet, kræver det individuel tilpasning.  
 > Repos med prefix `etl.` kræver PR, og at PR automatisk kører et pre-commit check af seneste commit.
 
 ## 5. Dags
