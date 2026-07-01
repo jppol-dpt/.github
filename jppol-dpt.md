@@ -66,7 +66,7 @@ Nu vil pre-commit køres inden hvert commit!
 > Repos med prefix `etl.` kræver PR, og at PR automatisk kører et pre-commit check af seneste commit.
 
 ## 5. Dags
-- Flyt dags til `.airflow/`. Hvis ikke dag filer ligger der, bør CD-steppet der deployer DAGS have input med korrekt sti.
+- Flyt dags til `airflow/`. Hvis ikke dag filer ligger der, bør CD-steppet der deployer DAGS have input med korrekt sti.
 - I fht. navngivning af Airflow og Batch referencer bør opsætningen fra allerede-migrerede repos følges. Dette gøres bl.a. for ikke at skulle manuelt angive navn på batch_job_definition i det tilsvarende CD-workflow.
 - Note: Default CPU og RAM for batch jobs er 1 kerne/GB.
 
