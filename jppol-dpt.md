@@ -61,7 +61,7 @@ Nu vil pre-commit køres inden hvert commit!
 
 - Fordi pre-commit kun er automatisk for de filer der committes ændringer til, bør kommandoen `uv run pre-commit run --all-files` køres som led af migrering, da det så får alle filer up-to-date. 
 
-## 4. .Dockerfile og .github/
+## 4. Dockerfile og .github/
 - Såfremt projektet er __klassisk__ pipeline, kan samme `.Dockerfile` og CICD filer kopieres fra allerede-migrerede repos. Er det ikke tilfældet, kræver det individuel tilpasning.  
 > Repos med prefix `etl.` kræver PR, og at PR automatisk kører et pre-commit check af seneste commit.
 
