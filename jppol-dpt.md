@@ -34,7 +34,7 @@ OBS!
 
 ## 1. Flyt kode
 - Læg kode i `src/`. Hvis ikke du bygger pakker, så undgå at lægge koden i "pakke"-foldere.
-- Flyt dags til `.airflow/`. Hvis ikke stien følger mønstret `airflow/dag.py` skal CD steppet som kopierer DAGS gives input til anden sti.
+- Flyt dags til `./airflow/`. Hvis ikke stien følger mønstret `./airflow/dag.py` skal CD steppet som kopierer DAGS gives input til anden sti.
 
 ## 2. UV opsætning
 - Opdater `pyproject.toml`, så det er kompatibelt med "uv". Se øvrige "jppol-dpt"-repos.
