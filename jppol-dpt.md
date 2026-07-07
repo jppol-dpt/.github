@@ -71,4 +71,4 @@ Nu vil pre-commit køres inden hvert commit!
 - Note: Default CPU og RAM for batch jobs er 1 kerne/GB.
 
 ## 6. Readme
-- Lav et overhaul af dokumentationen. Som minimum bør du give lidt kontekst til projektet, samt relevante CLI commands. I fht. CLI må udstilling af samtlige variationer af commands gerne undgås. Brug i steder for denne [guide](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap12.html#tag_12_01) til at vise variation.
+- Lav et overhaul af dokumentationen. Som minimum bør du give lidt kontekst til projektet, samt relevante CLI commands. I fht. CLI må udstilling af samtlige variationer af commands gerne undgås. Brug i steder for denne [guide](https://github.com/cli/cli/blob/trunk/docs/command-line-syntax.md) til at vise variation.
